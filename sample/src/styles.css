@@ -1,0 +1,10 @@
+body {
+    background-color: #333;
+    font-family: 'Ubuntu', 'Roboto', 'Arial';
+    font-size: 14px;
+    color: #fff;
+}
+
+app {
+    text-align: center;
+}
