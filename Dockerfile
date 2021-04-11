@@ -35,7 +35,7 @@ RUN apt-get update && apt-get install -y libgtk-3-dev libwebkit2gtk-4.0-37 libwe
 RUN npm i -g @neutralinojs/neu &&\
     neu create app
 
-# Export
+# Builder
 WORKDIR /usr/src/app
 RUN echo "#!/bin/bash" > ./builder.sh &&\
     echo "neu build" >> ./builder.sh &&\
