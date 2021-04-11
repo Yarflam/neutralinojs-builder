@@ -23,7 +23,7 @@
         "cloud": {}
     },
     "cli": {
-        "binaryName": "sample",
+        "binaryName": "app",
         "resourcesPath": "/resources/",
         "clientLibrary": "/resources/js/neutralino.js"
     }
